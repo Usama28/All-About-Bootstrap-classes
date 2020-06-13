@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+  <body>
+
+    <!--*********NAVBAR***********-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">TRAVERSY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Javascript</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">bootstrap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--*******JUMBOTRON(basically a show case area .u can add a background iamge)**********-->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>LEARNING BOOTSTRAP</h1>
+        </div>
+        <p>Lorem ipsum dolor, sit sequi eum.</p>
+        <button class="btn btn-primary">
+            Read More
+        </button>
+    </div>
+        <!--*************TYPOGRAPHY*****************-->
+
+   <div class="container">       <!--  center me push krny k lye -->
+        <h1 class="pb-2 mt-4 mb-2 border-bottom">Hello, world! <small>Secondary text</small> </h1> <!--h1class=>header  class -->
+        <p class="lead"> 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere facilis adipisci, 
+            commodi iure explicabo sapiente ad dignissimos nisi officia quas praesentium?
+        </p>
+        <p>                                                                                    
+            Lorem ipsum dolor,<mark> sit amet consectetur adipisicing elit.</mark> Facere facilis adipisci, <!-- del tag text ko cut krny k lye-->
+            commodi iure explicabo sapiente <del>ad dignissimos</del>  nisi officia quas praesentium?           <!-- mark tag k andr jo cheez wo highlight hojaegi-->
+            Nihil distinctio explicabo fugit <u> suscipit minima</u> repudiandae ad similique!                          <!--U tag for underline-->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere facilis adipisci, 
+            commodi iure explicabo sapiente ad dignissimos nisi officia quas praesentium?
+            Nihil distinctio explicabo fugit suscipit minima repudiandae ad similique!
+        </p>
+
+        <hr>
+
+        <!--*************ALIGNMENT & TRANSFORMATION**********************-->
+        <p class="text-left text-lowercase" >Left aligned text</p>
+        <p class="text-right text-uppercase">right align text</p>
+        <p class="text-center text-capitalize">center align text</p>
+        <p class="text-justify">justify text</p>
+        <p class='text-nowrap'>no wrap text</p>
+
+        <!--***************Quick FLOATS***************-->
+        <span class="float-right">Float right</span>
+        <div class="float-left">text floated to left</div>
+
+        <hr>
+        <!--CLEAR FLOAT-->
+        <div class="clearfix"></div>
+
+        <!--**************BLOCKQOUTE************-->
+        <blockquote class="blockquote">
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis labore a dignissimos adipisci, 
+            doloribus earum, quasi quo nemo, provident delectus totam recusandae. Iusto, adipisci deleniti.
+            </p>
+            <footer class="blockquote-footer">Qouted by Usama</cite></footer>
+        </blockquote>
+
+        <blockquote class="blockquote text-right">   <!--Blockqoute reverse-->
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis labore a dignissimos adipisci,
+              doloribus earum, quasi quo nemo, provident delectus totam recusandae. Iusto, adipisci deleniti.
+            </p>
+             <footer class="blockquote-footer">Qouted by Usama</cite></footer>
+         </blockquote>
+
+        <hr>
+
+        <!--***************LIST************-->
+
+        <ul class="list-unstyled">  <!--aik line me krny k lye-->
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+
+        <ul >  <!--aik line me krny k lye-->
+            <li class="list-inline-item">list 1</li>
+            <li class="list-inline-item">list 2</li>
+            <li class="list-inline-item">list 3</li>
+        </ul>
+        <hr>
+
+        <!--*********8CODE AND KEYBOARD TAGS**********8-->
+        <code>hello &lt;h1&gt;</code>
+        <br>
+        <p>change directory with <kbd>cd</kbd></p>
+        <hr>
+
+        <!--****************CONTEXTUAL COLORS***************-->
+        <p class="text-success">Hello</p>  <!--for green color-->
+        <p class="text-primary">Hello</p>   <!--for blue color-->
+        <p class="text-info">Hello</p>      <!--for light blue color-->
+        <p class="text-warning">Hello</p>   <!--for yellow color-->
+        <p class="text-danger">Hello</p>    <!--for red color-->
+        <p class="text-muted">Hello</p>     <!--for grey color-->
+
+        <!--*****************CONTEXTUAL BACKGROUND COLORS********************-->
+        <p class="bg-success">Hello</p>  <!--for green color-->
+        <p class="bg-primary">Hello</p>   <!--for blue color-->
+        <p class="bg-info">Hello</p>      <!--for light blue color-->
+        <p class="bg-warning">Hello</p>   <!--for yellow color-->
+        <p class="bg-danger">Hello</p>    <!--for red color-->
+        <p class="bg-muted">Hello</p>     <!--for grey color (Not applied on bg)-->
+        
+    </div>
+
+
+    <!--**********BUTTON***************-->
+    <div class="container">
+
+        <!--default button-->
+        <button>BUTTON</button>
+        <a href="#" role="button">LINK</a>
+        <input type="submit" value="SUBMIT">
+
+        <!--CONTEXTUAL BUTTON-->
+        <button class="btn btn-primary">BUTTON</button>
+        <button class="btn btn-success">BUTTON</button>
+        <button class="btn btn-info">BUTTON</button>
+        <button class="btn btn-warning">BUTTON</button>
+        <button class="btn btn-danger">BUTTON</button>
+        <button class=" btn btn-default">BUTTON</button>
+    
+        <a href="#" class="btn btn-link">LINK</a>
+        <br><hr>
+
+        <!--BUTTON SIZES-->
+        <button class="btn btn-success btn-lg">BUTTON</button>
+        <button >BUTTON</button>
+        <button class="btn btn-info btn-sm">BUTTON</button>
+        <button class="btn btn-success disabled " >DISABLED BUTTON</button>
+
+    </div>
+    <br><hr>
+    <!--************FORMS************-->
+    <div class="container">
+        <form  class="form-group">   <!--class wrap krny k kye-->
+            <label >ADD NAME</label>
+            <input type="text" placeholder="Enter Name" class="form-control">  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+        </form>
+
+        <form  class="form-group">   <!--class wrap krny k kye-->
+            <label >ADD EMAIL</label>
+            <input type="email" placeholder="Enter Name" class="form-control">  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+        </form>
+
+        <form  class="form-group">   <!--class wrap krny k kye-->
+            <label >ADD TEXT</label>
+            <textarea type="text" placeholder="Enter Text" class="form-control"></textarea>  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+        </form>
+
+        <!--********SELECT / OPTION************-->
+        <form class="form-group">
+            <select class="form-control">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <input type="file">
+            <label >ADD FILE</label>
+            <p class=" text-muted">Only PNG or JPG</p>   <!--class to disabbled text-->
+
+            <div class="checkbox">
+                <input type="checkbox" > Check me out !!!
+            </div>
+
+            <input type="submit" class="btn btn-danger" value="SUBMIT">
+        </form>
+
+        <br><hr>
+
+            <!--INLINE FORM-->
+        <form class="form-inline">
+            <div  class="form-group">   <!--class wrap krny k kye-->
+                <label >ADD NAME</label>
+                <input type="text" placeholder="Enter Name" class="form-control">  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+            </div>
+    
+            <div  class="form-group">   <!--class wrap krny k kye-->
+                <label >ADD EMAIL</label>
+                <input type="email" placeholder="Enter Name" class="form-control">  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+            </div>
+    
+            <div  class="form-group">   <!--class wrap krny k kye-->
+                <label >ADD TEXT</label>
+                <textarea type="text" placeholder="Enter Text" class="form-control"></textarea>  <!--input k tag ko next line me krdy ga or thori pading margin etc set krdy ga-->
+            </div>
+            <input type="submit" class="btn btn-danger" value="LOG IN">
+        </form>
+
+    </div>
+    <br><hr>
+
+    <!--*************TABLE*************-->
+    <div class="container">
+        <table class="table table-bordered table-hover  table-striped table-sm">  
+            <tr >                                                        
+                <th>FIRST NAME</th>                                     <!--sm=>andr ki padding km krny k lye-->
+                <th>LAST NAME</th>                                      <!--striped =>even number of rows ka grey krdy ga color-->
+                <th>AGE</th>
+            </tr>
+            <tr class="alert-info">
+                <td>John </td>
+                <td>Elia</td>
+                <td>59</td>                     <!--alert-(color) color dega or table-(color) us color ko alagborder bh dega(jse green ko dark green border)-->
+            </tr>
+            <tr class="table-warning">
+                <td>John </td>
+                <td>Elia</td>
+                <td>59</td>
+            </tr>
+            <tr class="table-success">
+                <td>John </td>
+                <td>Elia</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>John </td>
+                <td>Elia</td>
+                <td>59</td>
+            </tr>
+
+            <tr>
+                <td>John </td>
+                <td>Elia</td>
+                <td>59</td>
+            </tr>
+        </table>
+
+    </div>  <br><hr>
+
+    <!--*************LIST************-->
+    <div class="container">
+        <ul class="list-group">  <!--class for wrapping-->
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+            <li class="list-group-item">Item 4</li>
+        </ul>
+        <br>
+
+        <a href="#" class="list-group-item ">Link 1</a>
+        <a href="#" class="list-group-item active">Link 2</a>
+        <a href="#" class="list-group-item disabled">Link 3</a>
+        <a href="#" class="list-group-item">Link 4</a>
+    </div>
+
+    <!--Panels(ye bootstrp ki header file se chaly ga)-->
+    <div class="container">
+        <h2>Basic Panel</h2>
+        <div class="panel panel-default">
+          <div class="panel-body">A Basic Panel</div>
+        </div>
+      </div>
+      <br><hr>
+
+      <!--*********ALERTS*************-->
+      <div class="container">
+        <div class="alert alert-success" >success alert</div>
+        <div class="alert alert-info" role="alert">info alert</div>
+        <div class="alert alert-primary" role="alert">primary alert</div>
+        <div class="alert alert-danger" role="alert">danger alert</div>
+      </div>
+
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span>&times;</span>
+        </button>
+        <!--$times; is used to get x sign jis pr click krny s close hoga
+            add a .alert-dismissible class to the alert container. 
+        Then add class="close" and data-dismiss="alert" to a link or a
+         button element (when you click on this the alert box will disappear).-->
+      </div>
+      <br><hr>
+
+      <!--******PROGRESS BARS**********-->
+      
+      <div class="progress"> <!--waraper class-->
+        <div class="progress-bar" style="width: 50%;">
+            50%
+        </div>
+      </div>
+      <br><br>
+
+      <div class="progress">
+        <div class="progress-bar bg-success progress-bar-animated progress-bar-striped" style="width: 50%;">
+            50%
+        </div>
+      </div>
+      <br><hr>
+      
+    <div class="container">
+        <!-- <span class="label label-primary">primary</span>
+        <span class="label label-info">info</span>
+        <span class="label label-danger">danger</span>
+        <span class="label label-success">success</span>   purani bootstrap header file se hoga
+        <span class="label label-warning">warning</span>
+        <h4>Example <span class="label label-default">New</span></h4> -->
+
+               <!--*************BADGES*********-->
+        <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+        <h2>Example heading <span class="badge badge-primary">New</span></h2>
+        <h3>Example heading <span class="badge badge-warning">New</span></h3>
+        <h4>Example heading <span class="badge badge-info">New</span></h4>
+        <h5>Example heading <span class="badge badge-success">New</span></h5>
+        <h6>Example heading <span class="badge badge-danger">New</span></h6>
+     
+        <a href="#" >Badge <span class="badge badge-warning">07</span></a>
+
+        <button class="btn btn-danger">
+            BUTTON Badge<span class="badge badge-success">10</span>  <!--alert success bh likh skty hai-->
+        </button>
+    </div>
+    <br><hr>
+
+    <!--******IMAGES***********8-->
+    <div class="container">
+        <img src="../Assets/Images/cloud.jpg" width="20%" height="10%" class="img-thumbnail">
+        <img src="../Assets/Images/cloud.jpg" width="20%" height="10%" class="rounded-circle">
+        <img src="../Assets/Images/cloud.jpg" width="20%" height="10%" class="rounded">
+    </div>
+    <br><hr>
+
+    <!--******GRID*********-->
+    <!--
+       grid broken into 12 blocks are there in one screen
+       md==> medium screen size
+    -->
+    <div class="container">
+        <div class="row"> <!--wrapper class-->
+            <div class="col-md-8 col-sm-8 col-xs-8">  <!--sm-8 or xs-8 is lye use ki ta k screen choti krny se coloumn gayab na ho
+                                                        sm se chti krny se coulumn gayab nh hngy or xs se bilkul choti krny se gayab nh hngy -->
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque omnis minima
+                   rerum doloremque sit magni ab voluptas, impedit aspernatur laudantium totam, laboriosam
+                   quaerat, quas iure explicabo dolor voluptatem velit.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque omnis minima
+                    rerum doloremque sit magni ab voluptas.
+                 </p>
+             </div>
+        </div>
+                <hr>
+        <div class="row"> <!--wrapper class-->
+            <div class="col-md-4">
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque omnis minima
+                   rerum doloremque sit magni ab voluptas, impedit aspernatur laudantium totam, laboriosam
+                   quaerat, quas iure explicabo dolor voluptatem velit.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque omnis minima
+                    rerum doloremque sit magni ab voluptas.
+                 </p>
+             </div>
+             <div class="col-md-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque omnis minima
+                    rerum doloremque sit magni ab voluptas.
+                 </p>
+             </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <!--**************Collapse***************-->
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item 1
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item 2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item 3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--*************navbar tabs**********-->
+      <div class="bd-example bd-example-tabs mt-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">About</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Services</a>
+            </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade active show  id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p> Mustache cliche tempor, williamsburg to-table craft beer okay exsa vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p> PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>Elo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+            </div>
+            </div>
+        </div>
+    <div style="height: 400px;">
+    </div>
+    
+<!--
+    NOTES FOR BOOTSTRAP 4:
+1. page-header alternative in bootstrap4: class="pb-2 mt-4 mb-2 border-bottom"
+2. pull-right => float-right
+3. blockquote-reverse can be imitated with "blockquote text-right"
+4. list-inline -> add class="list-inline-item" to each one of your <li> elements and that'll work.
+5. Button sizing: btn-xs is not available in bootstrap4, there are only btn-lg and btn-sm classes.
+6. Instead of <p class="help-block">text</p>, use <small class="form-text text-muted">text</small>
+7. table-condensed -> table-sm
+8. for row(tr) colouring use 'table-primary', 'table-danger', etc, just like the buttons
+9. Panels in bootstrap 4 seem to have become Cards.
+10. progress-bar-success -> bg-success
+11. animated progress bar(active) -> progress-bar-animated
+12. thumbnail -> img-thumbnail, img-rounded -> rounded, img-circle -> rounded-circle
+-->
+
+  </body>
+</html>
